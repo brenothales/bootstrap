@@ -119,7 +119,6 @@
         inside = /in/.test(placement)
 
         $tip
-          .remove()
           .css({ top: 0, left: 0, display: 'block' })
           .appendTo(inside ? this.$element : document.body)
 
